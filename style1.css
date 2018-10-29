@@ -1,0 +1,37 @@
+body {
+    margin-left: 100px;
+    background-color: burlywood;
+    color : #17252a;
+}
+
+ul.navbar {
+    position: absolute;
+    top: 0px;
+    left: 1100px;
+    width: 150px;
+}
+
+span{
+    color: red;
+}
+
+#paragraphe1{
+
+    color: #b3d4fc;
+}
+
+
+ul.navbar li {
+    margin: 5px 0;
+    padding: 5px;
+    border-right: 1px solid #17252a;
+    border-top: 1px solid #17252a;
+    border-left: 10px solid #17252a;
+    border-bottom: 1px solid #17252a;
+    list-style-type: none;
+
+}
+
+ul.navbar a {
+    text-decoration: none
+}
