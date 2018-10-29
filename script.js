@@ -12,8 +12,8 @@ function init() {
     document.getElementById("container").getElementsByTagName("img")[3].src = "flower2.png";
     document.getElementById("container").getElementsByTagName("img")[4].src = "flower1.png";
 
-    
-         //images[5].src="flower2.png";
+
+    //images[5].src="flower2.png";
     document.getElementById("inner").innerHTML="Arthur your are the best!";
 
     let image = document.createElement("img");
@@ -22,7 +22,7 @@ function init() {
 
     //TASK 5//
     let spans = document.getElementById("rainbow").getElementsByTagName("span");
-        let color = ["red", "orange","yellow","green","blue","purple","pink"];
+    let color = ["red", "orange","yellow","green","blue","purple","pink"];
 
     for (var i = spans.length - 1; i >= 0; i--) {
         spans[i].style.color = color[i];// fill with proper code
@@ -35,7 +35,7 @@ function init() {
             if (filename == "flower2.png"){
                 event.target.src = "flower1.png";
             }
-                else {
+            else {
                 event.target.src = "flower2.png";
             }
 
@@ -45,6 +45,6 @@ function init() {
     document.getElementById("event").addEventListener("mouseover", changeSrc);
 
 
-   // file:///C:/Users/User/web3_example/flower1.png
+    // file:///C:/Users/User/web3_example/flower1.png
 
 }
